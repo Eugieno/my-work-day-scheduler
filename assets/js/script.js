@@ -33,4 +33,25 @@ for (var i = 0; i < timeArray.length; i++) {
 }
 
 // function to save to local storage 
+function saveTostorage(event) {
+    if (event) {
+        var textFromTextArea = $(this).parent().children('textarea').val().trim()
+        console.log(typeof textFromTextArea)
+        if (textFromTextArea == "") {
+            return
+        } 
+        localStorage.setItem("savedText", textFromTextArea)
+            
+        
+        // console.log(textFromTextArea)
+        
+    }
+    
+    
+    console.log(textFromTextArea)
+}
+
+// Event Listener 
+$('.save').on('click', saveTostorage)
+
 

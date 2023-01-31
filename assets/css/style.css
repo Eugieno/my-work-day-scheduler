@@ -76,4 +76,10 @@ textarea {
   border: solid black 1px;
 }
 
+.timeBox {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 

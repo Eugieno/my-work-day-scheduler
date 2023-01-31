@@ -1,4 +1,4 @@
-// Query selectors
+// Query selector
 var currentDayEl = $('#currentDay')
 
 // Current day - updated in the Header section
@@ -9,13 +9,7 @@ var updateDate = function () {
 }
 setInterval(updateDate,1000)
 
-
 // Color coding 
-
-// Running hour
-// var liveTime = setInterval(function() {
-//     moment().format('hA')
-// },2000)
 
 var timeArray = $('.time')
 for (var i = 0; i < timeArray.length; i++) {
@@ -33,14 +27,14 @@ for (var i = 0; i < timeArray.length; i++) {
     }
 }
 
-// function to save to local storage 
+// Event Handler - function 
 function saveTostorage(event) {
     if (event) {
         if (textFromTextArea == "") {
             return
         }
         if ($(this).attr('id')) {
-            // localStorage.getItem()
+        
             var textFromTextArea = $(this).parent().children('textarea').val().trim();
             var accessKey = $(this).attr('id')
             localStorage.setItem(accessKey, textFromTextArea);

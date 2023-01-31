@@ -8,7 +8,7 @@ My work scheduler is a browser app that allows user to schedule and keep track o
 ![App screen shot](./assets/images/app-screen-shot.png)
 
 ## Usage Instruction/Features
-Follow the app [App URL](), and you will land on the page pictured above. The app has a series a time blocks spanning a normal business hour of 9AM to 5PM. Each block has a text field which allows you to write activities you want to track. Activities written in the textfield can then be logged unto your local storage for future reference by clicking the save button. 
+Follow the app [App URL](https://eugieno.github.io/my-work-day-scheduler/), and you will land on the page pictured above. The app has a series a time blocks spanning a normal business hour of 9AM to 5PM. Each block has a text field which allows you to write activities you want to track. Activities written in the textfield can then be logged unto your local storage for future reference by clicking the save button. 
 
 During active business hours, a red color code on the time block indicates current hour, a grey color indicates previous or past hours. Meanwhile, green color coded blocks indicates future hours. 
 
